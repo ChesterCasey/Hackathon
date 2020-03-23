@@ -1,0 +1,7 @@
+
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ÿàã®8úÃ–.
+X
+java:S1854"6Remove this useless assignment to local variable "u1".(ºîÑõûÿÿÿÿ8¤ˆœ.
+I
+java:S1481"'Remove this unused "u1" local variable.(ºîÑõûÿÿÿÿ8¤ˆœ.
+X	java:S125"<This block of commented-out lines of code should be removed.(µÁ¥8¤ˆœ.
