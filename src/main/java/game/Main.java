@@ -11,6 +11,7 @@ public class Main {
         String chooseGame = "";
 
         do {
+            System.out.println("Введите имя...");
             userName = User.regName();
         } while (!User.checkname(userName));
 
@@ -28,16 +29,18 @@ public class Main {
             if (chooseGame.equals("Угадать число") || chooseGame.equals("угадать число")) {
                 do {
                     do {
+                        System.out.println("Введи число От 0 до 100...");
                         answer = GuessTheNumber.regAnswer();
                     } while (!GuessTheNumber.correctNumber(answer));
                 } while (!GuessTheNumber.guessTheAnswer(answer));
-            } else if (chooseGame.equals("Загадать число") || chooseGame.equals("загадать число" )) {
+            } else if (chooseGame.equals("Загадать число") || chooseGame.equals("загадать число")) {
                 ThinkTheNumber.regNumber();
                 do {
+                    System.out.println("Надо подумать...");
                 } while (!ThinkTheNumber.checkNumber());
             }
-        }while (!(chooseGame.equals("Выйти") || chooseGame.equals("выйти")));
+        } while (!(chooseGame.equals("Выйти") || chooseGame.equals("выйти")));
         System.out.println("До встречи, " + u1.getName() + "! Не забывай мыть руки!");
-        }
     }
+}
 

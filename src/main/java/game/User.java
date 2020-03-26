@@ -18,7 +18,6 @@ public class User {
     }
 
     public static String regName() {
-        System.out.println("Введите имя...");
         String name = new Scanner(System.in).nextLine();
         int namelength = name.length();
         name = name.toLowerCase();

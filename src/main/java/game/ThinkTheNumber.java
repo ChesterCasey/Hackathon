@@ -29,7 +29,9 @@ public class ThinkTheNumber {
         } else if (answer.equals("правильно") || answer.equals("да")) {
             System.out.println("Я победил, кожаный ты мешок!");
             return true;
-        } else System.out.println("Так я угадал или нет?");
-        return false;
+        } else {
+            System.out.println("Так я угадал или нет?");
+            return false;
+        }
+        }
     }
-}

@@ -1,7 +1,8 @@
 
-U	java:S106"9Replace this use of System.out or System.err by a logger.(ÿàã®8úÃ–.
-X
-java:S1854"6Remove this useless assignment to local variable "u1".(ºîÑõûÿÿÿÿ8¤ˆœ.
-I
-java:S1481"'Remove this unused "u1" local variable.(ºîÑõûÿÿÿÿ8¤ˆœ.
-X	java:S125"<This block of commented-out lines of code should be removed.(µÁ¥8¤ˆœ.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8¢ü¢Æ.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(µ«–»8–ü²¾.
+Z	java:S106("9Replace this use of System.out or System.err by a logger.(ÒÓÿÿÿÿÿ8›«ÎÅ.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(áÿÍ‡úÿÿÿÿ8–ü²¾.
+o
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(Çµí‘8…•øÅ.
+J	java:S108$")Either remove or fill this block of code.(ü§è½ùÿÿÿÿ8›«ÎÅ.
